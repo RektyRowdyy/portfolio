@@ -4,6 +4,7 @@ import './App.css'
 import { useEffect, useState } from 'react';
 import ThemeButton from './components/ThemeButton/ThemeButton.jsx';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
+import Projects from './components/Projects/Projects.jsx';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }} >
-      <div className='bg-violet-200 dark:bg-gray-600 w-full h-screen flex flex-col items-center justify-center'>
+      <section className='bg-violet-200 dark:bg-gray-600 w-full h-screen flex flex-col items-center justify-center'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -56,8 +57,9 @@ function App() {
           />
         </h1>
         <ThemeButton />
-      </div>
+      </section>
       <AboutMe />
+      <Projects />
     </ThemeProvider>
   )
 }

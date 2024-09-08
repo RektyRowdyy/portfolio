@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return (
-        <div className="bg-violet-50 dark:bg-gray-400 h-screen">
+        <section className="bg-violet-50 dark:bg-gray-400 h-[45rem]">
             {/* HEADING */}
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">ABOUT ME</h1>
@@ -85,6 +85,6 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
