@@ -8,7 +8,7 @@ import Projects from './components/Projects/Projects.jsx';
 
 function App() {
 
-  const [themeMode, setThemeMode] = useState("dark");
+  const [themeMode, setThemeMode] = useState("light");
 
   const lightTheme = () => {
     setThemeMode("light");
@@ -48,7 +48,7 @@ function App() {
         <h1 className='text-3xl font-light inline-flex items-center mt-3 dark:text-white'>
           <Typewriter
             options={{
-              strings: ['SOFTWARE DEVELOPER 💻', 'OPEN SOURCE CONTRIBUTOR 👨‍💻', 'STREAMER (wannabe) 🎮', `GYMMING (bulking since 2000's) 💪🏼`],
+              strings: ['SOFTWARE DEVELOPER 💻', 'OPEN SOURCE CONTRIBUTOR 👨‍💻', 'STREAMER 🎮 (wannabe)', `GYMMING (trying to bulk since 2000) 🥲`],
               autoStart: true,
               loop: true,
               deleteSpeed: 50,
