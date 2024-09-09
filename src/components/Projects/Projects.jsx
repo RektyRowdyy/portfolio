@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">PROJECTS</h1>
             </div>
-            <div className="flex space-x-32">
+            <div className="flex flex-row space-x-32">
                 <MyProjects title="INTELLILEARN LMS" year="2024" imgSrc="src\assets\IntelliLearn.png" link="https://github.com/RektyRowdyy/IntelliLearn-LMS" 
                             icons={[SiAngular, SiTypescript, DiVisualstudio, TbFileTypeSql]} />
                 <MyProjects title="OTAKUGRAM" year="2024" imgSrc="src\assets\Otakugram.png" link="https://github.com/RektyRowdyy/Otakugram" 

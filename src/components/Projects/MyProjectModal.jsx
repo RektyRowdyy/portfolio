@@ -1,6 +1,9 @@
 import { createPortal } from "react-dom";
 import useModal from "../../contexts/modal";
 import { FaGithub } from "react-icons/fa";
+import AwesomeSlider from "react-awesome-slider";
+import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 
 export default function MyProjectModal(props) {
     const mountedElement = document.getElementById('overlays');
@@ -20,7 +23,9 @@ export default function MyProjectModal(props) {
                                 &times;
                             </button>
                             {/* IMG SLIDER */}
-                            <img src={imgSrc} alt={title} className="p-5" />
+                            <AwesomeSlider className="p-5 w-screen" bullets={false} animation="fallAnimation">
+                               <div data-src={imgSrc}></div>
+                            </AwesomeSlider>
                             <div className="flex flex-row pl-5">
                                 <h1 className="font-mono font-semibold text-xl mr-2 dark:text-white">{title}</h1>
                                 <a href={link} target="_blank" rel="noopener noreferrer">
