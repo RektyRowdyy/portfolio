@@ -5,6 +5,9 @@ import { useEffect, useState } from 'react';
 import ThemeButton from './components/ThemeButton/ThemeButton.jsx';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import Projects from './components/Projects/Projects.jsx';
+import Skills from './components/Skills/Skills.jsx';
+import Experience from './components/Experience/Experience.jsx';
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
 
@@ -60,6 +63,9 @@ function App() {
       </section>
       <AboutMe />
       <Projects />
+      <Skills />
+      <Experience />
+      <Footer />
     </ThemeProvider>
   )
 }
