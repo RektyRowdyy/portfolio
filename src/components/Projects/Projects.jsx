@@ -14,13 +14,13 @@ export default function Projects() {
             </div>
             <div className="flex flex-row space-x-32 items-center justify-center">
                 <MyProjects title="INTELLILEARN LMS" year="2024"
-                            imgUrls={[`src/assets/IntelliLearn/1.png`, `src/assets/IntelliLearn/2.png`, `src/assets/IntelliLearn/3.png`, `src/assets/IntelliLearn/4.png`]} 
+                            imgUrls={[`IntelliLearn/1.png`, `IntelliLearn/2.png`, `IntelliLearn/3.png`, `IntelliLearn/4.png`]} 
                             link="https://github.com/RektyRowdyy/IntelliLearn-LMS" icons={[SiAngular, SiTypescript, DiVisualstudio, TbFileTypeSql]} />
                 <MyProjects title="OTAKUGRAM" year="2024" 
-                            imgUrls={[`src/assets/Otakugram/1.png`, `src/assets/Otakugram/2.png`]}
+                            imgUrls={[`Otakugram/1.png`, `Otakugram/2.png`]}
                             link="https://github.com/RektyRowdyy/Otakugram" icons={[SiReact, FaNodeJs, SiExpress, SiMongodb]} />
                 <MyProjects title="YOUTUBE BACKEND" year="2024" 
-                            imgUrls={[`src/assets/Youtube-Backend/1.png`, `src/assets/Youtube-Backend/2.png`, `src/assets/Youtube-Backend/3.png`]}
+                            imgUrls={[`Youtube-Backend/1.png`, `Youtube-Backend/2.png`, `Youtube-Backend/3.png`]}
                             link="https://github.com/RektyRowdyy/Youtube-Backend" icons={[FaNodeJs, SiExpress, SiMongodb]} />
             </div>
         </section>
