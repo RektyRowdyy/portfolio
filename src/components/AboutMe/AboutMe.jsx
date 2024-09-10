@@ -7,12 +7,12 @@ export default function AboutMe() {
             </div>
 
             {/* CARD COMPONENTS */}
-            <div className="flex">
+            <div className="flex flex-row">
 
                 {/* PHOTO */}
                 <div className="relative h-[400px] w-[300px] rounded-md ml-48 mt-12">
                     <img
-                        src="src\assets\me.JPG"
+                        src="src\assets\Portraits\1.JPG"
                         alt="Photo of Me :)"
                         className="z-0 h-full w-full rounded-md object-cover"
                     />

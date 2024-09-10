@@ -4,7 +4,7 @@ import { ModalProvider } from "../../contexts/modal";
 
 export default function MyProjects(props) {
 
-    const { title, year, imgSrc, icons, link } = props;
+    const { title, year, imgUrls, icons, link } = props;
     const [isModalOpen, setisModalOpen] = useState(false);
 
     const openModal = () => setisModalOpen(true);
@@ -12,11 +12,11 @@ export default function MyProjects(props) {
 
     return (
         <>
-            <div className="relative w-[400px] h-[280px] ml-56 mt-16 p-2 rounded-b-md bg-violet-100 dark:bg-gray-600 
+            <div className="relative w-[400px] h-[280px] mt-16 p-2 rounded-b-md bg-violet-100 dark:bg-gray-600 
                 transition-transform duration-300 ease-in-out hover:scale-110 overflow-hidden cursor-pointer"
                 onClick={() => openModal()}>
                 <img
-                    src={imgSrc}
+                    src={imgUrls[0]}
                     alt={title}
                     className="h-[200px] w-full rounded-b-md object-cover"
                 />
@@ -27,10 +27,8 @@ export default function MyProjects(props) {
                 </div>
             </div>
             <ModalProvider value={{ isModalOpen, closeModal }}>
-                <MyProjectModal title={title} imgSrc={imgSrc} icons={icons} link={link} />
+                <MyProjectModal title={title} imgUrls={imgUrls} icons={icons} link={link} />
             </ModalProvider>
         </>
-
-
     )
 }
