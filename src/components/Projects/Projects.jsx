@@ -31,7 +31,7 @@ export default function Projects() {
                     imgUrls={[`Portfolio/1.png`,`Portfolio/2.png`,`Portfolio/3.png`,`Portfolio/4.png`,`Portfolio/5.png` ]}
                     link="https://github.com/RektyRowdyy/Chess" icons={[FaReact, IoLogoJavascript, RiTailwindCssFill]} />
                 <MyProjects title="CHESS-CLONE (in Progress)" year="2024"
-                    imgUrls={[`https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTh1d21ldDQ0NnJ1djEzZTRzaGpvbWgwOGZrb3NxN2EyZ21sMzJlYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zOvBKUUEERdNm/giphy.gif`]}
+                    imgUrls={[`Chess-Clone/1.png`, `Chess-Clone/2.png`]}
                     link="https://github.com/RektyRowdyy/Chess" icons={[SiMongodb, SiExpress, FaReact, FaNodeJs, SiTypescript]} />
             </div>
         </section>
