@@ -8,10 +8,10 @@ import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 export default function MyProjectModal(props) {
     const mountedElement = document.getElementById('overlays');
     const { isModalOpen, closeModal } = useModal();
-    const { title, imgUrls, icons, link } = props;
+    const { title, imgUrls, icons, link, description } = props;
     const mediaArray = imgUrls.map((imgSrc) => ({
         source: imgSrc,
-      }));
+    }));
 
     return (
         createPortal(
@@ -32,10 +32,10 @@ export default function MyProjectModal(props) {
                                 <a href={link} target="_blank" rel="noopener noreferrer">
                                     <FaGithub className="cursor-pointer" />
                                 </a>
-                                {/* PROJECT DESCRIPTION */}
-                                {/* <p> Lorem Ipsum </p> */}
                             </div>
-                            <div className="flex flex-row justify-center items-center">
+                            {/* PROJECT DESCRIPTION */}
+                            <p className="flex flex-row pl-5 font-mono font-normal tracking-tight"> {description} </p>
+                            <div className="flex flex-row justify-center items-center mt-3">
                                 {icons.map((Icon, index) => (
                                     <Icon key={index} size={28} className="project-icon mr-5" />
                                 ))}
