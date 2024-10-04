@@ -18,6 +18,7 @@ export default function Projects() {
                         link={project.link}
                         icons={project.icons}
                         description={project.description}
+                        liveLink={project.liveLink}
                     />
                 ))}
             </div>

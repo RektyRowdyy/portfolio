@@ -8,7 +8,8 @@ import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 export default function MyProjectModal(props) {
     const mountedElement = document.getElementById('overlays');
     const { isModalOpen, closeModal } = useModal();
-    const { title, imgUrls, icons, link, description } = props;
+    const { title, imgUrls, icons, link, description, liveLink } = props;
+    console.log(liveLink);
     const mediaArray = imgUrls.map((imgSrc) => ({
         source: imgSrc,
     }));
@@ -34,11 +35,25 @@ export default function MyProjectModal(props) {
                                 </a>
                             </div>
                             {/* PROJECT DESCRIPTION */}
-                            <p className="flex flex-row pl-5 font-mono font-normal tracking-tight"> {description} </p>
-                            <div className="flex flex-row justify-center items-center mt-3">
-                                {icons.map((Icon, index) => (
-                                    <Icon key={index} size={28} className="project-icon mr-5" />
-                                ))}
+                            <p className="flex flex-row pl-5 font-mono font-normal tracking-tight dark:text-white"> {description} </p>
+                            <div className="flex justify-between items-center mt-3">
+                                <div className="flex flex-row justify-center items-center flex-1 ml-28">
+                                    {icons.map((Icon, index) => (
+                                        <Icon key={index} size={28} className="project-icon mr-5" />
+                                    ))}
+                                </div>
+                                <a href={liveLink} target="_blank">
+                                    <button type="button" className={`font-medium rounded-md text-sm px-5 py-1.5 text-center inline-flex items-center
+                                                            text-white bg-gray-800 dark:bg-violet-500
+                                                            ${liveLink === undefined ? 'cursor-not-allowed' : 'cursor-pointer hover:bg-violet-500 dark:hover:bg-gray-800 transition-all duration-300 ease-in-out'}`}
+                                        disabled={liveLink === undefined}
+                                    >
+                                        Live Link
+                                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                        </svg>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

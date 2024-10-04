@@ -4,7 +4,7 @@ import { ModalProvider } from "../../contexts/modal";
 
 export default function MyProjects(props) {
 
-    const { title, year, imgUrls, icons, link, description } = props;
+    const { title, year, imgUrls, icons, link, description, liveLink } = props;
     const [isModalOpen, setisModalOpen] = useState(false);
 
     const openModal = () => setisModalOpen(true);
@@ -27,7 +27,7 @@ export default function MyProjects(props) {
                 </div>
             </div>
             <ModalProvider value={{ isModalOpen, closeModal }}>
-                <MyProjectModal title={title} imgUrls={imgUrls} icons={icons} link={link} description={description} />
+                <MyProjectModal title={title} imgUrls={imgUrls} icons={icons} link={link} description={description} liveLink={liveLink} />
             </ModalProvider>
         </>
     )

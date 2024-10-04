@@ -41,7 +41,8 @@ export const projectsData = [
         imgUrls: ["FreeCodeCamp-AUTH/1.png", "FreeCodeCamp-AUTH/2.png", "FreeCodeCamp-AUTH/3.png", "FreeCodeCamp-AUTH/4.png"],
         link: "https://github.com/RektyRowdyy/freecodecamp-AUTH",
         icons: [SiMongodb, SiExpress, FaReact, FaNodeJs],
-        description: `A full-stack application that replicates the funtionalities of the famous FreeCodeCamp website with robust authetication and authorization build using JWT tokens and session storage.`
+        description: `A full-stack application that replicates the funtionalities of the famous FreeCodeCamp website with robust authetication and authorization build using JWT tokens and session storage.`,
+        liveLink: 'https://freecodecamp-ui.vercel.app/'
     },
     {
         title: "HRIDYA-PORTFOLIO",
@@ -52,9 +53,9 @@ export const projectsData = [
         description: `A website that tells my story`
     },
     {
-        title: "CHESS-CLONE (in Progress)",
+        title: "CHESS-CLONE",
         year: "2024",
-        imgUrls: ["Chess-Clone/1.png", "Chess-Clone/2.png"],
+        imgUrls: ["Chess-Clone/1.png"],
         link: "https://github.com/RektyRowdyy/Chess",
         icons: [SiMongodb, SiExpress, FaReact, FaNodeJs, SiTypescript],
         description: `A full-stack web application that implements the complete logic of chess, enabling real-time, 1v1 chess matches between multiple users developed using Websockets.`
