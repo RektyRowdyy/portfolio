@@ -42,18 +42,18 @@ export default function MyProjectModal(props) {
                                         <Icon key={index} size={28} className="project-icon mr-5" />
                                     ))}
                                 </div>
-                                <a href={liveLink} target="_blank">
-                                    <button type="button" className={`font-medium rounded-md text-sm px-5 py-1.5 text-center inline-flex items-center
-                                                            text-white bg-gray-800 dark:bg-violet-500
-                                                            ${liveLink === undefined ? 'cursor-not-allowed' : 'cursor-pointer hover:bg-violet-500 dark:hover:bg-gray-800 transition-all duration-300 ease-in-out'}`}
-                                        disabled={liveLink === undefined}
-                                    >
-                                        Live Link
-                                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
-                                    </button>
-                                </a>
+                                {liveLink && (
+                                    <a href={liveLink} target="_blank">
+                                        <button type="button" className={`font-medium rounded-md text-sm px-5 py-1.5 text-center inline-flex items-center
+                                                            text-white bg-gray-800 dark:bg-violet-500 
+                                                            hover:bg-gray-950 dark:hover:bg-violet-950 transition-all duration-300`}>
+                                            Live Link
+                                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                            </svg>
+                                        </button>
+                                    </a>
+                                )}
                             </div>
                         </div>
                     </div>

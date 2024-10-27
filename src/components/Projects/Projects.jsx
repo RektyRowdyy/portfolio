@@ -3,7 +3,7 @@ import { projectsData } from "../../contants.js";
 
 export default function Projects() {
     return (
-        <section className="bg-violet-300 dark:bg-gray-700 h-[55rem]">
+        <section className="bg-violet-300 dark:bg-gray-700 h-[35rem]">
             {/* HEADING */}
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">PROJECTS</h1>

@@ -44,20 +44,20 @@ export const projectsData = [
         description: `A full-stack application that replicates the funtionalities of the famous FreeCodeCamp website with robust authetication and authorization build using JWT tokens and session storage.`,
         liveLink: 'https://freecodecamp-ui.vercel.app/'
     },
-    {
-        title: "HRIDYA-PORTFOLIO",
-        year: "2024",
-        imgUrls: ["Portfolio/1.png", "Portfolio/2.png", "Portfolio/3.png", "Portfolio/4.png", "Portfolio/5.png"],
-        link: "https://github.com/RektyRowdyy/Chess",
-        icons: [FaReact, IoLogoJavascript, RiTailwindCssFill],
-        description: `A website that tells my story`
-    },
-    {
-        title: "CHESS-CLONE",
-        year: "2024",
-        imgUrls: ["Chess-Clone/1.png"],
-        link: "https://github.com/RektyRowdyy/Chess",
-        icons: [SiMongodb, SiExpress, FaReact, FaNodeJs, SiTypescript],
-        description: `A full-stack web application that implements the complete logic of chess, enabling real-time, 1v1 chess matches between multiple users developed using Websockets.`
-    }
+    // {
+    //     title: "HRIDYA-PORTFOLIO",
+    //     year: "2024",
+    //     imgUrls: ["Portfolio/1.png", "Portfolio/2.png", "Portfolio/3.png", "Portfolio/4.png", "Portfolio/5.png"],
+    //     link: "https://github.com/RektyRowdyy/Chess",
+    //     icons: [FaReact, IoLogoJavascript, RiTailwindCssFill],
+    //     description: `A website that tells my story`
+    // },
+    // {
+    //     title: "CHESS-CLONE",
+    //     year: "2024",
+    //     imgUrls: ["Chess-Clone/1.png"],
+    //     link: "https://github.com/RektyRowdyy/Chess",
+    //     icons: [SiMongodb, SiExpress, FaReact, FaNodeJs, SiTypescript],
+    //     description: `A full-stack web application that implements the complete logic of chess, enabling real-time, 1v1 chess matches between multiple users developed using Websockets.`
+    // }
 ];
