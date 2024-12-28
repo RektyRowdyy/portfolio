@@ -19,7 +19,7 @@ export default function MyProjectModal(props) {
             <>
                 {isModalOpen &&
                     <div className={`fixed top-0 left-0 z-10 w-screen h-screen flex justify-center items-center backdrop-blur-sm`} onClick={closeModal}>
-                        <div className="flex flex-col max-w-4xl object-contain relative p-4 rounded-lg shadow-lg bg-violet-200 dark:bg-gray-700"
+                        <div className="flex flex-col max-w-sm md:max-w-4xl object-contain relative p-4 rounded-lg shadow-lg bg-violet-200 dark:bg-gray-700"
                             onClick={(e) => e.stopPropagation()}>
                             <button className="absolute -top-2 right-1 text-gray-900 dark:text-white text-4xl"
                                 onClick={closeModal}>
@@ -37,7 +37,7 @@ export default function MyProjectModal(props) {
                             {/* PROJECT DESCRIPTION */}
                             <p className="flex flex-row pl-5 font-mono font-normal tracking-tight dark:text-white"> {description} </p>
                             <div className="flex justify-between items-center mt-3">
-                                <div className="flex flex-row justify-center items-center flex-1 ml-28">
+                                <div className="flex flex-row justify-center items-center flex-1 ml-10 md:ml-28">
                                     {icons.map((Icon, index) => (
                                         <Icon key={index} size={28} className="project-icon mr-5" />
                                     ))}

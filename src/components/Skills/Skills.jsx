@@ -7,12 +7,12 @@ import { VscAzureDevops } from "react-icons/vsc";
 
 export default function Skills() {
     return (
-        <section className="bg-violet-100 dark:bg-gray-500 h-[30rem]">
+        <section className="bg-violet-100 dark:bg-gray-500 h-auto pb-28">
             {/* HEADING */}
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">SKILLS</h1>
             </div>
-            <div className="flex flex-row justify-center items-center mt-24 space-x-11">
+            <div className="grid grid-cols-3 md:grid-cols-12 justify-center items-center mt-24 gap-6 px-12">
                 <Technologies Icon={FaReact} title={"React"} />
                 <Technologies Icon={SiAngular} title={"Angular"} />
                 <Technologies Icon={RiTailwindCssFill} title={"TaildwindCSS"} />

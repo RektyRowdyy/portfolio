@@ -1,16 +1,16 @@
 export default function AboutMe() {
     return (
-        <section className="bg-violet-50 dark:bg-gray-400 h-[45rem]">
+        <section className="bg-violet-50 dark:bg-gray-400 h-auto pb-12">
             {/* HEADING */}
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">ABOUT ME</h1>
             </div>
 
             {/* CARD COMPONENTS */}
-            <div className="flex flex-row">
+            <div className="flex flex-col md:flex-row items-center">
 
                 {/* PHOTO */}
-                <div className="relative h-[400px] w-[300px] rounded-md ml-48 mt-12">
+                <div className="relative h-[350px] w-[350px] md:min-h-[400px] md:min-w-[300px] rounded-md md:ml-60 mt-12">
                     <img
                         src="Portraits\1.JPG"
                         alt="Photo of Me :)"
@@ -20,7 +20,7 @@ export default function AboutMe() {
                 </div>
 
                 {/* CARD-TEXT */}
-                <div className="bg-white dark:bg-slate-500 rounded-lg shadow-md mx-auto mt-28 w-[50rem] h-[16rem]">
+                <div className="bg-white dark:bg-slate-500 rounded-lg shadow-md mx-8 md:mx-44 mt-20 md:min-w-[35rem] h-auto">
                     <div className="flex flex-row border-b rounded-t-lg bg-gray-100 dark:bg-gray-800 dark:border-gray-950 pt-3 pl-3">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

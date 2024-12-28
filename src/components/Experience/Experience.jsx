@@ -4,7 +4,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Experience() {
     return (
-        <section className="bg-violet-400 dark:bg-gray-900 h-[60rem]">
+        <section className="bg-violet-400 dark:bg-gray-900 h-auto pb-12">
             {/* HEADING */}
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">EXPERIENCE</h1>
@@ -21,7 +21,7 @@ export default function Experience() {
                     <span className="bg-violet-300 text-gray-800 text-sm font-medium px-3.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Full-Time</span>
                     <h3 className="vertical-timeline-element-title text-black font-semibold text-xl mt-1 ml-1">Software Developer L1</h3>
                     <h4 className="vertical-timeline-element-subtitle text-black font-medium -mt-1 tracking-tight mb-3 ml-1">Gemini Solutions Pvt. Ltd.</h4>
-                    <div className="mt-2 grid grid-cols-5 gap-y-2 justify-center items-center">
+                    <div className="mt-2 grid grid-cols-3 md:grid-cols-5 gap-y-2 justify-center items-center">
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">HTML</span>
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">CSS</span>
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">JavaScript</span>
@@ -42,7 +42,7 @@ export default function Experience() {
                     <span className="bg-violet-300 text-gray-800 text-sm font-medium px-3.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Freelance</span>
                     <h3 className="vertical-timeline-element-title text-black font-semibold text-xl mt-1 ml-1">.NET Full Stack Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle text-black font-medium -mt-1 tracking-tight mb-3 ml-1">MyEzCare</h4>
-                    <div className="mt-2 grid grid-cols-5 gap-y-2 justify-center items-center">
+                    <div className="mt-2 grid grid-cols-3 md:grid-cols-5 gap-y-2 justify-center items-center">
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">Angular</span>
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">Bootstrap</span>
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">Material-UI</span>
@@ -62,7 +62,7 @@ export default function Experience() {
                     <span className="bg-violet-300 text-gray-800 text-sm font-medium px-3.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Full-Time</span>
                     <h3 className="vertical-timeline-element-title text-black font-semibold text-xl mt-1 ml-1">.NET Full Stack Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle text-black font-medium -mt-1 tracking-tight mb-3 ml-1">MyEzCare</h4>
-                    <div className="mt-2 grid grid-cols-5 gap-y-2 justify-center items-center">
+                    <div className="mt-2 grid grid-cols-3 md:grid-cols-5 gap-y-2 justify-center items-center">
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">Angular</span>
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">Bootstrap</span>
                         <span className="bg-violet-50 text-center text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-500 dark:text-white">Material-UI</span>
