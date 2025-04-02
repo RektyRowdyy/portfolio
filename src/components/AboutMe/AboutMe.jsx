@@ -3,7 +3,7 @@ export default function AboutMe() {
         <section className="bg-violet-50 dark:bg-gray-400 h-auto pb-12">
             {/* HEADING */}
             <div className="flex flex-col items-center">
-                <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">ABOUT ME   </h1>
+                <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">ABOUT ME</h1>
             </div>
 
             {/* CARD COMPONENTS */}
