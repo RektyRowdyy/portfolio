@@ -76,7 +76,7 @@ export default function AboutMe() {
                         </div>
                         <div className="m-6 mt-2 leading-7 text-sm">
                             <p>
-                                I'm Hridya Dham.
+                                I'm Hridya Dham .
                                 I'm a passionate software developer with expertise in full-stack development,
                                 specializing in creating dynamic, user-friendly web applications.
                                 With a strong background in modern front-end technologies like React and Tailwind CSS, combined with back-end frameworks such as .NET and Node.js 👨‍💻. My experience spans across building custom applications, implementing robust APIs, and working with databases like SQL Server and MySQL 👌.
