@@ -12,7 +12,7 @@ export default function AboutMe() {
                 {/* PHOTO */}
                 <div className="relative h-[350px] w-[350px] md:min-h-[400px] md:min-w-[300px] rounded-md md:ml-60 mt-12">
                     <img
-                        src="Portraits\1.JPG"
+                        src="Portraits\2.png"
                         alt="Photo of Me :)"
                         className="z-0 h-full w-full rounded-md object-cover"
                     />
