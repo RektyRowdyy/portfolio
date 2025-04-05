@@ -12,7 +12,7 @@ export default function Skills() {
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mt-24 font-semibold font-mono dark:text-white">SKILLS</h1>
             </div>
-            <div className="grid grid-cols-3 md:grid-cols-12 justify-center items-center mt-24 gap-6 px-12">
+            <div className="flex flex-wrap justify-center gap-6 px-4 sm:px-8 md:px-12 mt-24">
                 <Technologies Icon={FaReact} title={"React"} />
                 <Technologies Icon={SiAngular} title={"Angular"} />
                 <Technologies Icon={RiTailwindCssFill} title={"TaildwindCSS"} />
